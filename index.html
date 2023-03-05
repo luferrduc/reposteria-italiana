@@ -8,72 +8,148 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/8887217ecd.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!-- CSS Custom -->
     <link rel="stylesheet" href="/css/style.css">
     <title>Home</title>
 </head>
 
-<body>
-    <nav class="navbar navbar-expand-sm bg-body-tertiary fixed-top">
+<body class="">
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-md static nav__menu">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img src="/assets/img/logo.png" alt="Logo" width="100%" height="80px" class="d-inline-block align-text-top">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
-                aria-controls="offcanvasNavbar">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#"> <img src="../assets/img/logo.png" alt="Logo" width="80px" height="80px" class="d-inline-block align-text-top"></a>
+             <!-- Hamburger button -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+            <!-- End Hamburger button -->
+            <div class="offcanvas offcanvas-start nav__menu__nav-celular" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menú</h5>
+                    <h5 class="offcanvas-title nav__menu__titulo-menu-celular" id="offcanvasNavbarLabel">Menú</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 align-content-center">
+                    <ul class="navbar-nav justify-content-center align-self-center flex-grow-1 pe-3 menu__links">
                         <li class="nav-item">
-                            <a class="nav-link pe-4 active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link pe-4" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pe-4" href="/pages/pastelerias.html">Pastelerías</a>
+                            <a class="nav-link pe-4" href="./pages/pastelerias.html">Pastelerías</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pe-4" href="/pages/populares.html">Populares</a>
+                            <a class="nav-link pe-4" href="./pages/populares.html">Populares</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pe-4" href="/pages/receta.html">Receta</a>
+                            <a class="nav-link pe-4" href="./pages/receta.html">Receta</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link pe-4" href="/pages/contacto.html">Contacto</a>
+                            <a class="nav-link pe-4" href="./pages/contacto.html">Contacto</a>
                         </li>
-                    </ul>
-                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Twitter</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Insta</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Fb</a>
                         </li>
                     </ul>
-
+                    <!-- Navbar social media -->
+                    <ul class="navbar-nav justify-content-center align-self-center navbar-social-media">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </li>
+                    </ul>
+                    <!-- End Navbar social media -->
                 </div>
             </div>
         </div>
     </nav>
+    <!-- End Navigation bar -->
+    <!-- Main content -->
     <main>
-        
+        <div>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat dolore vitae recusandae blanditiis
+            deserunt harum adipisci, laborum qui natus, assumenda dolorem veniam sunt laudantium? A natus quod accusamus
+            alias necessitatibus?
+        </div>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi doloremque saepe doloribus possimus. Ratione quo
+        corrupti asperiores ut autem quidem tempora, odit itaque quia ipsa praesentium, tempore similique laborum eum?
+        Provident iusto minima unde ad assumenda doloribus consequuntur esse iste corporis eligendi aut reprehenderit
+        repellat odit animi fuga maiores, ducimus autem distinctio atque dolore? Modi, obcaecati, dolorum nobis tenetur
+        labore consectetur quam nulla quas quos quod id laboriosam mollitia harum optio, voluptates corporis error
+        aliquid? Explicabo quisquam quasi quia recusandae cumque quidem, est aspernatur iure consectetur facere autem
+        quae. Iste quae praesentium similique eveniet, accusantium ad necessitatibus perspiciatis, id atque, dignissimos
+        totam voluptas blanditiis culpa. Nam, aliquam maiores, placeat vero iusto fugit facilis et quos cum neque
+        quaerat earum reprehenderit ullam possimus velit eligendi iste dolorum commodi culpa repellendus sapiente esse!
+        Debitis natus recusandae numquam veritatis exercitationem, adipisci, laudantium enim cupiditate sit quibusdam,
+        doloremque laboriosam quod voluptatem provident. Adipisci distinctio autem facilis necessitatibus consequuntur,
+        libero, dolor doloremque dolorum, amet repellendus itaque culpa. Laudantium quibusdam similique voluptates
+        officiis enim ratione consequuntur modi accusamus distinctio. Ab ipsa velit debitis iste provident, dolore illo
+        voluptas, vitae doloribus laudantium, laboriosam quos sint quis. Impedit hic magnam, odit debitis eaque
+        excepturi voluptates harum et rerum odio, autem inventore voluptatum, assumenda laborum quia consequatur
+        cupiditate ratione in enim eligendi labore non repellendus a fugit? Id omnis aut quasi, commodi repellendus quas
+        similique hic nemo distinctio nulla et. Pariatur, obcaecati magni porro ipsum possimus, esse ratione laborum
+        illo delectus repellat eius molestias doloribus distinctio hic quod laboriosam mollitia iusto ea sunt. A minus
+        nostrum saepe rerum minima labore nemo quod dolorem nihil numquam consectetur, quibusdam ullam fugiat optio,
+        obcaecati amet similique enim placeat quasi odio porro aspernatur praesentium. Deleniti impedit assumenda
+        sapiente animi adipisci itaque pariatur officia placeat quibusdam nisi nostrum praesentium temporibus alias
+        voluptate inventore eligendi fugit numquam, tenetur amet laudantium. Sint quae qui, ex soluta saepe magnam
+        molestias quisquam tenetur quasi nemo, consectetur eaque, impedit minima voluptatum quia. Consequatur pariatur
+        necessitatibus ipsa. Voluptatibus labore eius, quos dolorum sint aliquid ut ullam obcaecati ratione possimus
+        architecto dolores numquam recusandae neque alias velit tempora. Molestias voluptate quia, quos, eveniet ut
+        porro optio ea magnam dignissimos laborum accusantium cum ratione. Nemo eius cumque reiciendis dolor saepe.
+        Laboriosam tempore vitae architecto rerum. Blanditiis consequatur eos deleniti perspiciatis! Maxime ex dolores
+        illo praesentium. Consequuntur commodi itaque similique, exercitationem saepe quod est possimus aut consectetur
+        laudantium non error doloribus voluptatibus minus eligendi ullam in quibusdam, minima eveniet impedit explicabo
+        ratione deserunt dignissimos inventore. Ducimus debitis quisquam suscipit et qui obcaecati voluptatum totam
+        soluta at optio! Maiores, deserunt corporis ad eos autem nisi enim sit, excepturi inventore sint alias impedit
+        accusantium dolor porro, quisquam vero ipsa distinctio. Facilis, eius? Laboriosam perferendis quo, quam et
+        sapiente sunt ut voluptatem fuga dicta quos ipsum atque consequuntur molestias eius impedit molestiae eligendi
+        corporis quia quis iste maxime a. Molestias debitis cumque ipsam provident. Voluptatum deleniti officiis rem
+        nihil totam hic facilis eos nam esse laudantium fugiat iusto veniam accusantium, cum voluptatem eligendi illum
+        ex vel reprehenderit architecto nisi. Modi fugiat explicabo repellendus, quisquam necessitatibus dolore
+        voluptates numquam in delectus reiciendis tempore culpa distinctio omnis. Adipisci maiores blanditiis laboriosam
+        quas accusamus atque perferendis numquam cumque et assumenda possimus vel, excepturi alias, odit quae, aperiam
+        voluptatum quos minima fugiat eum nesciunt nihil placeat corporis reiciendis. At veritatis natus aliquid ducimus
+        quos eveniet et sint, magni minus? Voluptatum quam hic fugit maxime consequatur voluptates est asperiores
+        tempora suscipit, eos unde nostrum veritatis, dignissimos perspiciatis dolorum cupiditate in. Commodi dolorum,
+        mollitia adipisci aut repellat accusamus voluptate quisquam rerum est hic expedita soluta magni officia quaerat
+        eveniet odit qui et eligendi consequuntur velit itaque doloremque harum ullam! Voluptatem, voluptatibus harum!
+        Ipsa omnis quas delectus sequi, aut perspiciatis impedit porro nihil totam sit doloremque in asperiores ipsam,
+        accusamus accusantium. Perspiciatis voluptatem iste esse aperiam sequi delectus ab, doloremque voluptate cum
+        hic, ad temporibus porro eaque totam amet, quidem voluptatibus labore est omnis quo molestias minima. Sapiente
+        vel aut natus pariatur ipsa ullam sed dicta iste ex asperiores accusamus autem temporibus fuga veniam earum,
+        explicabo nemo eius velit officiis! Tempora, deleniti? Molestiae architecto sapiente, fugiat aperiam quidem sit
+        explicabo iusto nihil. Dolorum eos earum aperiam modi consequatur. Iure tenetur quam voluptatibus! Ipsa ipsam
+        vitae fugit perspiciatis quisquam sit voluptate ipsum molestias quod ad incidunt accusantium consectetur
+        consequuntur ex dignissimos illo, in quae. Consequatur minima, maiores quam deserunt officiis quas asperiores
+        aliquam maxime magnam. Vitae eius vel, tenetur fuga, iure dolorum exercitationem voluptatibus, ex sapiente
+        veritatis quod ratione voluptate deleniti vero necessitatibus consequatur! Dignissimos odio, nobis error
+        voluptatum qui quod sequi, odit quaerat numquam aliquam repudiandae doloribus sed perspiciatis culpa
+        exercitationem ex at nemo dolorum incidunt placeat amet ipsa. Vitae aliquid dolore placeat minus nisi commodi
+        non, necessitatibus eum fugiat officia quidem corrupti! Explicabo, impedit! Ut modi quod ab maiores distinctio
+        consequuntur tempore, enim error, nulla consectetur alias amet explicabo voluptates molestiae cupiditate neque
+        similique magnam earum reiciendis ipsum ullam! Eius repudiandae tempore, optio placeat cum ipsa dolore incidunt.
     </main>
-    <footer>
-
+    <!-- End Main content -->
+    <!-- Footer section -->
+    <footer class="row">
     </footer>
+    </div>
+    <!-- End Footer section -->
     <!-- Scripts JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
 </body>
 

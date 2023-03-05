@@ -1,0 +1,54 @@
+
+body{
+
+
+}
+.nav__menu {
+    background-color: rgba(236, 173, 173, 0.884);
+    padding: 20px 0;
+}
+
+
+
+.menu__links a {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    color: black;
+  
+}
+
+.menu__links a:hover {
+    color: crimson;
+  
+}
+.menu__links a:active {
+    color: darkred;
+  
+}
+
+.nav__menu__titulo-menu-celular {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
+.nav__menu__nav-celular {
+    background-color: rgb(241, 193, 193);
+}
+
+.navbar-social-media {
+
+}
+.navbar-social-media a{
+    font-size: 1.45rem;
+}
+
+.navbar-social-media a i.fa-brands.fa-twitter{
+    color: #1DA1F2;
+}
+.navbar-social-media a i.fa-brands.fa-facebook{
+    color: #2258df;
+}
+
+@media screen {
+    
+}
