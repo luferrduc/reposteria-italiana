@@ -254,6 +254,16 @@
     text-align: justify;
 }
 
+/* Receta */
+.titulo-receta {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
+.descripcion-receta {
+    text-align: justify;
+}
+
 /* Media queries */
 
 @media screen and (max-width: 576px){
