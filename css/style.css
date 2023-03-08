@@ -1,13 +1,9 @@
 
-body{
-
-
-}
+/* Navbar */
 .nav__menu {
     background-color: rgba(236, 173, 173, 0.884);
     padding: 20px 0;
 }
-
 
 
 .menu__links a {
@@ -19,10 +15,19 @@ body{
 
 .menu__links a:hover {
     color: crimson;
+    text-decoration: underline;
   
 }
 .menu__links a:active {
+    color: rgb(96, 0, 0);
+  
+}
+.menu__links a:visited {
     color: darkred;
+  
+}
+.menu__links a:visited:hover {
+    color: rgb(242, 24, 68);
   
 }
 
@@ -43,12 +48,173 @@ body{
 }
 
 .navbar-social-media a i.fa-brands.fa-twitter{
-    color: #1DA1F2;
+    
+    color: rgba(29, 161, 242, 1);
 }
 .navbar-social-media a i.fa-brands.fa-facebook{
-    color: #2258df;
+    
+    color: rgba(34, 88, 223, 1);
 }
 
-@media screen {
+.navbar-social-media a i.fa-brands.fa-twitter:hover{
+    
+    color: rgba(29, 161, 242, 0.6);
+}
+.navbar-social-media a i.fa-brands.fa-facebook:hover{
+    
+    color: rgba(34, 88, 223, 0.6);
+}
+.navbar-social-media a i.fa-brands.fa-instagram:hover{
+    
+    color: rgba(37, 39, 42, 0.6);
+}
+
+/* Contenido principal */
+.banner-principal {
+    position: relative;
+}
+
+.banner-principal h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+
+.contenedor-prinicpal {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: bisque;
+}
+
+.contendor-img-principal {
+    margin: auto 0;
+}
+.contenedor-historia {
+    padding: 1.5rem 0;
+}
+
+.contenedor-historia p {
+    text-align: justify;
+}
+
+.contenedor-historia h3 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+.contendor-principal-titulo h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+/* Footer */
+.nav-item a {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
+.footer-container {
+    background: rgba(236, 173, 173, 0.884);
+    padding: 2rem;
+}
+.footer-social-nav li a {
+    color: black;
+}
+.footer-social-nav li a i{
+    margin-right: 10px;
+}
+
+.footer-social-nav a i.fa-brands.fa-twitter{ 
+    color: rgba(29, 161, 242, 1);
+}
+.footer-social-nav a span:hover{ 
+    color: crimson;
+    text-decoration: underline;
+}
+.footer-social-nav a i.fa-brands.fa-facebook{
+  
+    color: rgba(34, 88, 223, 1);
+}
+
+.footer-social-nav a i.fa-brands.fa-twitter:hover{
+    
+    color: rgba(29, 161, 242, 0.6);
+}
+.footer-social-nav a i.fa-brands.fa-facebook:hover{
+  
+    color: rgba(34, 88, 223, 0.6);
+}
+.footer-social-nav a i.fa-brands.fa-instagram:hover{
+  
+    color: rgba(37, 39, 42, 0.6);
+}
+.footer-social-nav a i.fa-brands.fa-youtube{
+    
+    color: rgb(255, 0, 0)
+}
+.footer-social-nav a i.fa-brands.fa-youtube:hover{
+    
+    color: rgba(255, 0, 0, 0.6)
+}
+
+.footer-social-nav .nav-item a.nav-link:visited{
+    color: darkred;
+}
+
+.footer-navbar .nav-link{
+    color: black;
+    
+}
+
+.footer-navbar .nav-link {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    color: black;
+  
+}
+
+.footer-navbar .nav-link:hover {
+    color: crimson;
+    text-decoration: underline;
+  
+}
+.footer-navbar .nav-link:active {
+    color: rgb(96, 0, 0);
+  
+}
+.footer-navbar .nav-link:visited {
+    color: darkred;
+  
+}
+.footer-navbar .nav-link:visited:hover {
+    color: rgb(242, 24, 68);
+  
+}
+
+
+
+/* Media queries */
+
+@media screen and (max-width: 576px){
+    .contenedor-prinicpal {
+        margin-top: 0;
+    } 
+
+    .banner-principal h1{
+        font-size: 2rem;
+        
+    }
+    
+}
+
+@media screen and (max-width: 356px){
+    .banner-principal h1{
+        font-size: 1.5rem;
+        
+    }
     
 }
