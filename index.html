@@ -9,9 +9,7 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Open+Sans:wght@300;400;500;700&family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome Icons -->
     <script src="https://kit.fontawesome.com/8887217ecd.js" crossorigin="anonymous"></script>
     <!-- Bootstrap -->
@@ -129,11 +127,18 @@
             </div>
         </main>
         <!-- End Main content -->
-        <section>
-
+        <section class="container p-4 mt-md-4">
+            <div class="row">
+                <div class="col-12 col-md-6 w-50 mx-auto my-0">
+                    <img src="./assets/img/placeholder-image.jpg" alt="" class="img-fluid ">
+                </div>
+                <div class="text-center align-middle col-12 col-md-6 my-auto py-md-1">
+                    <p>Y así nació la pastelería italiana!</p>
+                </div>
+            </div>
         </section>
         <!-- Footer section -->
-        <footer class="container-fluid">
+        <footer class="container-fluid footer-container">
             <div class="row">
                 <div class="col-12 col-md-4">
                     <div class="d-flex flex-column">
@@ -141,11 +146,42 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sint magni id impedit asperiores odio inventore illo eveniet ea et?</p>
                     </div>
                 </div>
-                <div class="col-12 col-md-4">
-
+                <div class="col-12 col-md-4 text-center pt-3 pt-md-1">
+                    <h4>Social</h4>
+                    <ul class="nav flex-column text-center footer-social-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i><span>Twitter</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i><span>Facebook</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i><span>Instagram</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i><span>Youtube</span></a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-12 col-md-4">
-
+                <div class="col-12 col-md-4 text-center pt-3 pt-md-1">
+                    <h4>Indice</h4>
+                    <ul class="nav flex-column footer-navbar">
+                        <li class="nav-item">
+                          <a class="nav-link" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/pastelerias.html">Pastelerias</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/populares.html">Populares</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="./pages/receta.html">Receta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                      </ul>
                 </div>
             </div>
         </footer>
