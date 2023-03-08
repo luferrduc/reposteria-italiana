@@ -196,6 +196,31 @@
 }
 
 
+/* Populares */
+#body-populares {
+    background-color: whitesmoke;
+}
+
+.main-populares {
+    background-color: whitesmoke;
+}
+
+.receta-popular p {
+    text-align: justify;
+}
+.titulo-populares {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+.seccion-titulo p{
+
+}
+
+
+.static-botom {
+    position: static;
+    bottom: 0;
+}
 
 /* Media queries */
 
