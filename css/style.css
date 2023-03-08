@@ -212,14 +212,46 @@
     font-family: 'Noto Serif', serif;
     font-weight: 700;
 }
-.seccion-titulo p{
 
+.tabla-contenidos h3{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: large;
 }
+.titulo-recomendacion {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
 
 
 .static-botom {
     position: static;
     bottom: 0;
+}
+
+/* Pastelerias */
+.nombre-pasteleria {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
+.articulo-pasteleria {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
+}
+#body-pastelerias {
+    background-color: whitesmoke;
+}
+
+.pastelerias-conclusion h2{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+}
+
+.pastelerias-conclusion p{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: justify;
 }
 
 /* Media queries */
@@ -240,6 +272,9 @@
     .banner-principal h1{
         font-size: 1.5rem;
         
+    }
+    .tabla-contenidos{
+        overflow: hidden;
     }
     
 }
