@@ -1,17 +1,41 @@
 
 .nav__menu{
-    background-color: $bg-navbar;
+    background-color: $bg-secondary;
     padding: 20px 0;
 }
 
+.menu__links {
+    a{
+        @include titulos(('Noto Serif', serif), 700);
+        color: black;
+        &:hover{
+            @include links(underline, crimson);
+        }
+        &:active{
+            @include links(underline,rgb(96, 0, 0));
+        }
+    }
+    
+}
+
 @each $red, $color in $redes-colors{
-    .navbar-social-media a i.fa-brands.fa-#{$red}{
-        color: $color;
+    .navbar-social-media {
+        a {
+            i.fa-brands.fa-#{$red}{
+                color: $color;
+            }
+        }        
     }
 }
 
 @each $red, $color in $redes-colors-hover{
-    .navbar-social-media a i.fa-brands.fa-#{$red}:hover{
-        color: $color;
+    .navbar-social-media {
+        a {
+            i.fa-brands.fa-#{$red}{
+                &:hover{
+                    color: $color;
+                }
+            }
+        }        
     }
 }

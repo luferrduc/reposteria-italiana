@@ -3,6 +3,20 @@
   padding: 20px 0;
 }
 
+.menu__links a {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: black;
+}
+.menu__links a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+.menu__links a:active {
+  text-decoration: underline;
+  color: rgb(96, 0, 0);
+}
+
 .navbar-social-media a i.fa-brands.fa-twitter {
   color: rgb(29, 161, 242);
 }
@@ -33,6 +47,11 @@
 
 .navbar-social-media a i.fa-brands.fa-instagram:hover {
   color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-container {
+  background-color: rgba(236, 173, 173, 0.884);
+  padding: 2rem;
 }
 
 .footer-social-nav a i.fa-brands.fa-twitter {
