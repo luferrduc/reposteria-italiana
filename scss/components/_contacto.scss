@@ -1,0 +1,10 @@
+.main-contacto {
+    h1 {
+        @include titulos(('Noto Serif', serif), 700);
+    }
+    form {
+        h2 {
+            @include titulos(('Noto Serif', serif), 400);
+        }
+    }
+}

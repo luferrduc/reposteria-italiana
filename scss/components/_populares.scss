@@ -1,0 +1,22 @@
+#body-populares {
+    background-color: $bgc-primary;
+}
+
+.main-populares {
+    background-color: $bgc-primary;
+}
+.receta-popular {
+    p {
+        text-align: justify;
+    }
+}
+.titulo-populares {
+    @include titulos(('Noto Serif', serif), 700);
+}
+.titulo-recomendacion {
+    @include titulos(('Noto Serif', serif), 700);
+}
+.static-botom {
+    position: static;
+    bottom: 0;
+}

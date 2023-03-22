@@ -1,6 +1,6 @@
 
 .nav__menu{
-    background-color: $bg-secondary;
+    background-color: $bgc-secondary;
     padding: 20px 0;
 }
 
@@ -12,7 +12,14 @@
             @include links(underline, crimson);
         }
         &:active{
-            @include links(underline,rgb(96, 0, 0));
+            @include links(none,rgb(96, 0, 0));
+        }
+        &:visited{
+            @include links(none,darkred);
+            &:hover{
+                @include links(underline, rgb(242, 24, 68));
+           
+            }
         }
     }
     
@@ -37,5 +44,18 @@
                 }
             }
         }        
+    }
+}
+
+.nav__menu__titulo-menu-celular {
+    @include titulos(('Noto Serif', serif), 700);
+}
+.nav__menu__nav-celular {
+    background-color: rgb(241, 193, 193);
+}
+
+.navbar-social-media {
+    a {
+        font-size: 1.45rem;
     }
 }

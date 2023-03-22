@@ -1,0 +1,49 @@
+.banner-principal {
+    position: relative;
+    h1{
+        position: absolute;
+        @include titulos(('Noto Serif', serif), bold);
+        font-size: 3rem;   
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.contenedor-prinicpal {
+    margin-top: 2rem;
+    padding: 1.5rem;
+    background-color: bisque;
+}
+
+.contendor-img-principal {
+    margin: auto 0;
+}
+
+.contenedor-historia {
+    padding: 1.5rem 0;
+    p {
+        @include titulos(('Roboto Condensed', sans-serif), 400);
+        text-align: justify;
+    }
+    h3 {
+        @include titulos(('Noto Serif', serif), 700);
+    }
+    h2 {
+        @include titulos(('Noto Serif', serif), 700);
+    }
+}
+
+.contendor-principal-titulo h2 {
+    @include titulos(('Noto Serif', serif), 700);
+}
+.contenedor-final-historia {
+    .contenedor-final-historia-img {
+
+    }
+    .contenedor-final-historia-text {
+        p {
+            @include titulos(('Noto Serif', serif), 400);
+        }
+    }
+}

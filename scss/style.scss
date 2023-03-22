@@ -1,5 +1,6 @@
 // Base
 @import './base/variables';
+@import './base/operations';
 @import './base/lists';
 @import './base/maps';
 @import './base/extend';
@@ -8,3 +9,19 @@
 // Componentes
 @import './components/navbar';
 @import './components/footer';
+@import './components/contenido-principal';
+@import './components/populares';
+@import './components/pastelerias';
+@import './components/recetas';
+@import './components/contacto';
+
+// Sobreescribir color botón bootstrap primary
+.btn-primary{ 
+    background-color: darkcyan;
+    &:hover{
+        background-color: rgba(0, 139, 139, 0.8);
+    }
+}
+
+
+

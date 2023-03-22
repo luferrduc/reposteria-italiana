@@ -213,16 +213,11 @@
     font-weight: 700;
 }
 
-.tabla-contenidos h3{
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-    font-size: large;
-}
+
 .titulo-recomendacion {
     font-family: 'Noto Serif', serif;
     font-weight: 700;
 }
-
 
 
 .static-botom {
@@ -234,6 +229,12 @@
 .nombre-pasteleria {
     font-family: 'Noto Serif', serif;
     font-weight: 700;
+}
+
+.tabla-contenidos h3{
+    font-family: 'Noto Serif', serif;
+    font-weight: 700;
+    font-size: large;
 }
 
 .articulo-pasteleria {

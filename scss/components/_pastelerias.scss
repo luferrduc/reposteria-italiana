@@ -1,0 +1,30 @@
+#body-pastelerias {
+    background-color: $bgc-primary;
+}
+
+.nombre-pasteleria {
+    @include titulos(('Noto Serif', serif), 700);
+}
+
+
+.tabla-contenidos {
+    h3 {
+        @include titulos(('Noto Serif', serif), 700);
+        font-size: large;
+    }
+}
+
+.articulo-pasteleria {
+    @include titulos(('Roboto Condensed', sans-serif), 400);
+    text-align: justify;
+}
+.pastelerias-conclusion {
+    h2 {
+        @include titulos(('Noto Serif', serif), 700);
+    }
+
+    p {
+        @include titulos(('Roboto Condensed', serif), 400);
+        text-align: justify;
+    }
+}
