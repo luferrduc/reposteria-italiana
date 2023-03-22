@@ -1,0 +1,11 @@
+@each $red, $color in $redes-colors{
+    .footer-social-nav a i.fa-brands.fa-#{$red}{
+        color: $color;
+    }
+}
+
+@each $red, $color in $redes-colors-hover{
+    .footer-social-nav a i.fa-brands.fa-#{$red}:hover{
+        color: $color;
+    }
+}

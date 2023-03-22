@@ -1,0 +1,17 @@
+
+.nav__menu{
+    background-color: $bg-navbar;
+    padding: 20px 0;
+}
+
+@each $red, $color in $redes-colors{
+    .navbar-social-media a i.fa-brands.fa-#{$red}{
+        color: $color;
+    }
+}
+
+@each $red, $color in $redes-colors-hover{
+    .navbar-social-media a i.fa-brands.fa-#{$red}:hover{
+        color: $color;
+    }
+}

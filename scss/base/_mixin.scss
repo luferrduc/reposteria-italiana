@@ -1,0 +1,9 @@
+@mixin links ($decoration, $color){
+    text-decoration: $decoration;
+    color: $color;
+}
+
+@mixin titulos ($familia, $weight){
+    font-family: $familia;
+    font-weight: $weight;
+}
