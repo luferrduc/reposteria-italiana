@@ -1,0 +1,61 @@
+.footer-container{
+    background-color: $bgc-secondary;
+    padding: 2rem;
+}
+
+@each $red, $color in $redes-colors{
+    .footer-social-nav a i.fa-brands.fa-#{$red}{
+        color: $color;
+    }
+}
+
+@each $red, $color in $redes-colors-hover{
+    .footer-social-nav a i.fa-brands.fa-#{$red}:hover{
+        color: $color;
+    }
+}
+
+.nav-item{
+    a {
+        @include titulos(('Noto Serif', serif), 700);
+    }
+}
+
+.footer-social-nav {
+
+    a {
+        color: black;
+        &:hover {
+            @include links(underline, crimson);
+        }
+
+    }
+    i {
+        margin-right: 10px;
+    }
+
+}
+.footer-navbar {
+    .nav-link {
+        @include titulos(('Noto Serif', serif), 700);
+        color: black;
+        &:hover {
+            @include links(underline, crimson);
+        }
+        &:visited {
+            color: darkred;
+            &:hover {
+                color: rgb(242, 24, 68);
+            }
+        }
+        &:active {
+            color: rgb(96, 0, 0);
+        }
+    }
+}
+
+.footer-container {
+    h4 {
+        @include titulos(('Noto Serif', serif), 700); 
+    }
+}

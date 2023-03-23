@@ -1,290 +1,323 @@
-
-/* Navbar */
 .nav__menu {
-    background-color: rgba(236, 173, 173, 0.884);
-    padding: 20px 0;
+  background-color: rgba(236, 173, 173, 0.884);
+  padding: 20px 0;
 }
-
 
 .menu__links a {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-    color: black;
-  
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: black;
 }
-
 .menu__links a:hover {
-    color: crimson;
-    text-decoration: underline;
-  
+  text-decoration: underline;
+  color: crimson;
 }
 .menu__links a:active {
-    color: rgb(96, 0, 0);
-  
+  text-decoration: none;
+  color: rgb(96, 0, 0);
 }
 .menu__links a:visited {
-    color: darkred;
-  
+  text-decoration: none;
+  color: darkred;
 }
 .menu__links a:visited:hover {
-    color: rgb(242, 24, 68);
-  
+  text-decoration: underline;
+  color: rgb(242, 24, 68);
+}
+
+.navbar-social-media a i.fa-brands.fa-twitter {
+  color: rgb(29, 161, 242);
+}
+
+.navbar-social-media a i.fa-brands.fa-facebook {
+  color: rgb(34, 88, 223);
+}
+
+.navbar-social-media a i.fa-brands.fa-youtube {
+  color: rgb(255, 0, 0);
+}
+
+.navbar-social-media a i.fa-brands.fa-instagram {
+  color: rgb(0, 0, 0);
+}
+
+.navbar-social-media a i.fa-brands.fa-twitter:hover {
+  color: rgba(29, 161, 242, 0.6);
+}
+
+.navbar-social-media a i.fa-brands.fa-facebook:hover {
+  color: rgba(34, 88, 223, 0.6);
+}
+
+.navbar-social-media a i.fa-brands.fa-youtube:hover {
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.navbar-social-media a i.fa-brands.fa-instagram:hover {
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .nav__menu__titulo-menu-celular {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
 }
 
 .nav__menu__nav-celular {
-    background-color: rgb(241, 193, 193);
+  background-color: rgb(241, 193, 193);
 }
 
-.navbar-social-media {
-
-}
-.navbar-social-media a{
-    font-size: 1.45rem;
-}
-
-.navbar-social-media a i.fa-brands.fa-twitter{
-    
-    color: rgba(29, 161, 242, 1);
-}
-.navbar-social-media a i.fa-brands.fa-facebook{
-    
-    color: rgba(34, 88, 223, 1);
-}
-
-.navbar-social-media a i.fa-brands.fa-twitter:hover{
-    
-    color: rgba(29, 161, 242, 0.6);
-}
-.navbar-social-media a i.fa-brands.fa-facebook:hover{
-    
-    color: rgba(34, 88, 223, 0.6);
-}
-.navbar-social-media a i.fa-brands.fa-instagram:hover{
-    
-    color: rgba(37, 39, 42, 0.6);
-}
-
-/* Contenido principal */
-.banner-principal {
-    position: relative;
-}
-
-.banner-principal h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Noto Serif', serif;
-    font-weight: bold;
-    font-size: 3rem;
-    
-}
-
-
-.contenedor-prinicpal {
-    margin-top: 2rem;
-    padding: 1.5rem;
-    background-color: bisque;
-}
-
-.contendor-img-principal {
-    margin: auto 0;
-}
-.contenedor-historia {
-    padding: 1.5rem 0;
-}
-
-.contenedor-historia p {
-    text-align: justify;
-}
-
-.contenedor-historia h3 {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-}
-.contendor-principal-titulo h2{
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-}
-/* Footer */
-.nav-item a {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+.navbar-social-media a {
+  font-size: 1.45rem;
 }
 
 .footer-container {
-    background: rgba(236, 173, 173, 0.884);
-    padding: 2rem;
-}
-.footer-social-nav li a {
-    color: black;
-}
-.footer-social-nav li a i{
-    margin-right: 10px;
+  background-color: rgba(236, 173, 173, 0.884);
+  padding: 2rem;
 }
 
-.footer-social-nav a i.fa-brands.fa-twitter{ 
-    color: rgba(29, 161, 242, 1);
-}
-.footer-social-nav a span:hover{ 
-    color: crimson;
-    text-decoration: underline;
-}
-.footer-social-nav a i.fa-brands.fa-facebook{
-  
-    color: rgba(34, 88, 223, 1);
+.footer-social-nav a i.fa-brands.fa-twitter {
+  color: rgb(29, 161, 242);
 }
 
-.footer-social-nav a i.fa-brands.fa-twitter:hover{
-    
-    color: rgba(29, 161, 242, 0.6);
-}
-.footer-social-nav a i.fa-brands.fa-facebook:hover{
-  
-    color: rgba(34, 88, 223, 0.6);
-}
-.footer-social-nav a i.fa-brands.fa-instagram:hover{
-  
-    color: rgba(37, 39, 42, 0.6);
-}
-.footer-social-nav a i.fa-brands.fa-youtube{
-    
-    color: rgb(255, 0, 0)
-}
-.footer-social-nav a i.fa-brands.fa-youtube:hover{
-    
-    color: rgba(255, 0, 0, 0.6)
+.footer-social-nav a i.fa-brands.fa-facebook {
+  color: rgb(34, 88, 223);
 }
 
-.footer-social-nav .nav-item a.nav-link:visited{
-    color: darkred;
+.footer-social-nav a i.fa-brands.fa-youtube {
+  color: rgb(255, 0, 0);
 }
 
-.footer-navbar .nav-link{
-    color: black;
-    
+.footer-social-nav a i.fa-brands.fa-instagram {
+  color: rgb(0, 0, 0);
+}
+
+.footer-social-nav a i.fa-brands.fa-twitter:hover {
+  color: rgba(29, 161, 242, 0.6);
+}
+
+.footer-social-nav a i.fa-brands.fa-facebook:hover {
+  color: rgba(34, 88, 223, 0.6);
+}
+
+.footer-social-nav a i.fa-brands.fa-youtube:hover {
+  color: rgba(255, 0, 0, 0.6);
+}
+
+.footer-social-nav a i.fa-brands.fa-instagram:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-item a {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+.footer-social-nav a {
+  color: black;
+}
+.footer-social-nav a:hover {
+  text-decoration: underline;
+  color: crimson;
+}
+.footer-social-nav i {
+  margin-right: 10px;
 }
 
 .footer-navbar .nav-link {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-    color: black;
-  
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  color: black;
 }
-
 .footer-navbar .nav-link:hover {
-    color: crimson;
-    text-decoration: underline;
-  
-}
-.footer-navbar .nav-link:active {
-    color: rgb(96, 0, 0);
-  
+  text-decoration: underline;
+  color: crimson;
 }
 .footer-navbar .nav-link:visited {
-    color: darkred;
-  
+  color: darkred;
 }
 .footer-navbar .nav-link:visited:hover {
-    color: rgb(242, 24, 68);
-  
+  color: rgb(242, 24, 68);
+}
+.footer-navbar .nav-link:active {
+  color: rgb(96, 0, 0);
 }
 
+.footer-container h4 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
 
-/* Populares */
+.banner-principal {
+  position: relative;
+}
+.banner-principal h1 {
+  position: absolute;
+  font-family: "Noto Serif", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.contenedor-prinicpal {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background-color: bisque;
+}
+
+.contendor-img-principal {
+  margin: auto 0;
+}
+
+.contenedor-historia {
+  padding: 1.5rem 0;
+}
+.contenedor-historia p {
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  text-align: justify;
+}
+.contenedor-historia h3 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+.contenedor-historia h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+.contendor-principal-titulo h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+.contenedor-final-historia .contenedor-final-historia-text p {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+}
+
 #body-populares {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
 }
 
 .main-populares {
-    background-color: whitesmoke;
+  background-color: whitesmoke;
+}
+.main-populares img {
+  transition: all ease-out 0.6s;
+}
+.main-populares img:hover {
+  transform: scale(1.15);
+}
+.main-populares h3 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+.seccion-titulo, .receta-popular p {
+  text-align: justify;
 }
 
 .receta-popular p {
-    text-align: justify;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  font-size: medium;
 }
+
 .titulo-populares {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
 }
 
-.tabla-contenidos h3{
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
-    font-size: large;
-}
 .titulo-recomendacion {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
 }
-
-
 
 .static-botom {
-    position: static;
-    bottom: 0;
+  position: static;
+  bottom: 0;
 }
 
-/* Pastelerias */
+#body-pastelerias {
+  background-color: whitesmoke;
+}
+
 .nombre-pasteleria {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+
+.tabla-contenidos h3 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+  font-size: large;
 }
 
 .articulo-pasteleria {
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: justify;
-}
-#body-pastelerias {
-    background-color: whitesmoke;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 400;
+  text-align: justify;
 }
 
-.pastelerias-conclusion h2{
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+.pastelerias-conclusion h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+.pastelerias-conclusion p {
+  font-family: "Roboto Condensed", serif;
+  font-weight: 400;
+  text-align: justify;
 }
 
-.pastelerias-conclusion p{
-    font-family: 'Roboto Condensed', sans-serif;
-    text-align: justify;
+.recomendacion-texto {
+  font-family: "Roboto Condensed", serif;
+  font-weight: 400;
+  text-align: justify;
 }
 
-/* Receta */
 .titulo-receta {
-    font-family: 'Noto Serif', serif;
-    font-weight: 700;
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
 }
 
 .descripcion-receta {
-    text-align: justify;
+  text-align: justify;
 }
 
-/* Media queries */
-
-@media screen and (max-width: 576px){
-    .contenedor-prinicpal {
-        margin-top: 0;
-    } 
-
-    .banner-principal h1{
-        font-size: 2rem;
-        
-    }
-    
+.main-contacto h1 {
+  font-family: "Noto Serif", serif;
+  font-weight: 700;
+}
+.main-contacto form h2 {
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
 }
 
-@media screen and (max-width: 356px){
-    .banner-principal h1{
-        font-size: 1.5rem;
-        
-    }
-    .tabla-contenidos{
-        overflow: hidden;
-    }
-    
+.btn-primary {
+  background-color: darkcyan;
+  border: darkcyan;
 }
+.btn-primary:hover {
+  background-color: rgba(0, 139, 139, 0.8);
+}
+
+@media screen and (max-width: 576px) {
+  .contenedor-prinicpal {
+    margin-top: 0;
+  }
+  .banner-principal h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 356px) {
+  .banner-principal h1 {
+    font-size: 1.5rem;
+  }
+  .tabla-contenidos {
+    overflow: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

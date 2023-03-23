@@ -1,0 +1,7 @@
+.titulo-receta {
+    @include titulos(('Noto Serif', serif), 700);
+}
+
+.descripcion-receta {
+    text-align: justify;
+}

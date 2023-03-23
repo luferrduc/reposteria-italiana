@@ -1,0 +1,37 @@
+#body-populares {
+    background-color: $bgc-primary;
+}
+
+.main-populares {
+    background-color: $bgc-primary;
+    img {
+        transition: all ease-out 0.6s;
+        &:hover {
+            transform: scale(1.15);
+           
+        }
+    }
+    h3 {
+        @include titulos(('Noto Serif', serif), 700);
+    }
+}
+.seccion-titulo {
+    text-align: justify;
+}
+.receta-popular {
+    p {
+        @extend .seccion-titulo;
+        @include titulos(('Roboto Condensed', sans-serif), 400);
+        font-size: medium
+    }
+}
+.titulo-populares {
+    @include titulos(('Noto Serif', serif), 700);
+}
+.titulo-recomendacion {
+    @include titulos(('Noto Serif', serif), 700);
+}
+.static-botom {
+    position: static;
+    bottom: 0;
+}
