@@ -18,6 +18,7 @@
 // Sobreescribir color botón bootstrap primary
 .btn-primary{ 
     background-color: darkcyan;
+    border: darkcyan;
     &:hover{
         background-color: rgba(0, 139, 139, 0.8);
     }
@@ -25,3 +26,32 @@
 
 
 
+@media screen and (max-width: 576px){
+    .contenedor-prinicpal {
+        margin-top: 0;
+    } 
+
+    .banner-principal{
+        h1{
+            font-size: 2rem;
+            
+        }
+    } 
+    
+    
+    
+}
+
+@media screen and (max-width: 356px){
+    .banner-principal {
+        h1{
+            font-size: 1.5rem;
+            
+        }
+    }
+ 
+    .tabla-contenidos{
+        overflow: hidden;
+    }
+    
+}

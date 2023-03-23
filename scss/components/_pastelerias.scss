@@ -28,3 +28,8 @@
         text-align: justify;
     }
 }
+
+.recomendacion-texto {
+    @include titulos(('Roboto Condensed', serif), 400);
+    text-align: justify;
+}
