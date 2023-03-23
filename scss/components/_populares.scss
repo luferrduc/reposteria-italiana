@@ -17,6 +17,9 @@
 }
 .seccion-titulo {
     text-align: justify;
+    p.texto-populares {
+        @include titulos(('Roboto Condensed', sans-serif), 400);
+    }
 }
 .receta-popular {
     p {

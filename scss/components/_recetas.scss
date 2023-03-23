@@ -3,5 +3,6 @@
 }
 
 .descripcion-receta {
+    @include titulos(('Roboto Condensed', sans-serif), 400);
     text-align: justify;
 }
