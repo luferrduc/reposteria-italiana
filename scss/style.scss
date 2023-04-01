@@ -15,6 +15,12 @@
 @import './components/recetas';
 @import './components/contacto';
 
+
+
+html {
+    height: 100vh;
+}
+
 // Sobreescribir color botón bootstrap primary
 .btn-primary{ 
     background-color: darkcyan;

@@ -12,12 +12,33 @@
         @include titulos(('Noto Serif', serif), 700);
         font-size: large;
     }
+    li {
+        a.tabla-nav-link{
+            color: rgb(71, 6, 6);
+            
+            text-decoration: none;
+            &:hover {
+                color: rgb(158, 4, 4);
+        
+
+            }
+        }
+    }
 }
 
 .articulo-pasteleria {
     @include titulos(('Roboto Condensed', sans-serif), 400);
     text-align: justify;
 }
+
+.articulo-pasteleria-img { 
+    width: 100%;
+    max-width: 1200px;
+    align-self: center;
+}
+
+
+
 .pastelerias-conclusion {
     h2 {
         @include titulos(('Noto Serif', serif), 700);

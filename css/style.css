@@ -159,6 +159,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.banner-principal img {
+  width: 100%;
+  max-width: 2000px;
+  max-height: 1000px;
+}
 
 .contenedor-prinicpal {
   margin-top: 2rem;
@@ -258,11 +263,24 @@
   font-weight: 700;
   font-size: large;
 }
+.tabla-contenidos li a.tabla-nav-link {
+  color: rgb(71, 6, 6);
+  text-decoration: none;
+}
+.tabla-contenidos li a.tabla-nav-link:hover {
+  color: rgb(158, 4, 4);
+}
 
 .articulo-pasteleria {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 400;
   text-align: justify;
+}
+
+.articulo-pasteleria-img {
+  width: 100%;
+  max-width: 1200px;
+  align-self: center;
 }
 
 .pastelerias-conclusion h2 {
@@ -299,6 +317,10 @@
 .main-contacto form h2 {
   font-family: "Noto Serif", serif;
   font-weight: 400;
+}
+
+html {
+  height: 100vh;
 }
 
 .btn-primary {
